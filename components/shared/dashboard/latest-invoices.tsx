@@ -12,7 +12,7 @@ export default async function LatestInvoices() {
       <Card className="flex w-full flex-col md:col-span-4">
         <CardHeader>
           <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
-            Latest Invoices
+            Сүүлийн нэхэмжлэхүүд
           </h2>
         </CardHeader>
         <CardContent>

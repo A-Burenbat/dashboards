@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     return (
       <div className="w-full">
         <div className="flex w-full items-center justify-between">
-          <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+          <h1 className={`${lusitana.className} text-2xl`}>Нэхэмжлэхүүд</h1>
         </div>
         <div className="mt-4 flex items-center justify-between gap-2 md:mt-8">
-          <Search placeholder="Search invoices..." />
+          <Search placeholder="Нэхэмжлэх хайх..." />
           <Button asChild>
             <Link href="/dashboard/invoices/create">
-                <span className="hidden md:block">Create Invoice</span>
+                <span className="hidden md:block">Нэхэмжлэх үүсгэх</span>
                 <PlusIcon className="h-5 md:ml-4" />
             </Link>
             </Button>

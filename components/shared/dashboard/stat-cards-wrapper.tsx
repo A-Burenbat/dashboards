@@ -21,22 +21,22 @@ const iconMap = {
     return (
       <>
         <StatCard
-          title="Collected"
+          title="Цуглуулсан"
           value={totalPaidInvoices}
           type="collected"
         />
         <StatCard
-          title="Pending"
+          title="Хүлээгдэж буй"
           value={totalPendingInvoices}
           type="pending"
         />
         <StatCard
-          title="Total Invoices"
+          title="Нийт нэхэмжлэх"
           value={numberOfInvoices}
           type="invoices"
         />
         <StatCard
-          title="Total Customers"
+          title="Нийт үйлчлүүлэгчид"
           value={numberOfCustomers}
           type="customers"
         />

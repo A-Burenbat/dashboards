@@ -17,15 +17,15 @@ export default function Home() {
             className={`${lusitana.className} text-xl md:text-3xl md:leading-normal`}
           >
             <strong>Welcome to Next 15 Admin Dashboard.</strong>
-            <br />
+            {/* <br />
             <Link href="https://www.youtube.com/watch?v=6ma9_5Mycns&t=4412s">
             https://github.com/basir/next-15-admin-dashboard/blob/main/lessons/06.%20display%20revenue%20chart.md - End yvna sss<br />
             https://www.youtube.com/watch?v=6ma9_5Mycns&t=4412s
-            </Link>
+            </Link> */}
           </p>
           <Button asChild className="w-1/2">
             <Link href="/login">
-              <span>Log in</span> 
+              <span>Нэвтрэх</span> 
               <ArrowRightIcon className="w-6" />
             </Link>
           </Button>
